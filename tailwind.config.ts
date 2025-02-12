@@ -55,8 +55,18 @@ export default {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
-  		}
-  	}
+  		},
+		  animation: {
+			scroll: "scroll 40s linear infinite",
+			"reverse-scroll": "scroll 40s linear infinite reverse",
+		  },
+		  keyframes: {
+			scroll: {
+			  "0%": { transform: "translateX(0)" },
+			  "100%": { transform: "translateX(-50%)" },
+			},
+		  },
+  	},
   },
   plugins: [require("tailwindcss-animate")],
 } satisfies Config;
