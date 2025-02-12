@@ -20,7 +20,7 @@ export function Promotion() {
             <div className="w-1/2">
               <h3 className="text-4xl font-medium mb-5" data-aos="fade-left">Promotion</h3>
               <p className="text-xl font-serif mb-5" data-aos="fade-left">
-                Unlock the Ultimate Comfort in Wellness with Our Exclusive Reflexology Deal! Elevate your relaxation experience and immerse yourself in unparalleled comfort that rejuvenates your mind, body, and soul. Don't miss this limited-time offer to enrich your reflexology journey with us.
+                Unlock the Ultimate Comfort in Wellness with Our Exclusive Reflexology Deal! Elevate your relaxation experience and immerse yourself in unparalleled comfort that rejuvenates your mind, body, and soul. Don&apos;t miss this limited-time offer to enrich your reflexology journey with us.
               </p>
               <div className="mt-5">
                 <a 
@@ -44,7 +44,7 @@ export function Promotion() {
           />
           <h3 className="text-4xl font-medium mb-5" data-aos="fade-left">Promotion</h3>
           <p className="text-xl font-serif mb-5" data-aos="fade-left">
-            Unlock the Ultimate Comfort in Wellness with Our Exclusive Reflexology Deal! Elevate your relaxation experience and immerse yourself in unparalleled comfort that rejuvenates your mind, body, and soul. Don't miss this limited-time offer to enrich your reflexology journey with us.
+            Unlock the Ultimate Comfort in Wellness with Our Exclusive Reflexology Deal! Elevate your relaxation experience and immerse yourself in unparalleled comfort that rejuvenates your mind, body, and soul. Don&apos;t miss this limited-time offer to enrich your reflexology journey with us.
           </p>
           <div className="mt-5">
             <a 

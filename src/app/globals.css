@@ -414,3 +414,28 @@ input:checked + label .description {
         padding-top: 50vh;
     }
 }
+
+
+
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 20px;
+}
+  
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 5px rgb(49, 17, 17);
+    opacity: 0%;
+    border-radius: 10px;
+}
+  
+
+::-webkit-scrollbar-thumb {
+    background: rgb(70, 70, 70);
+    border-radius: 5px;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #333333;
+}
