@@ -5,18 +5,17 @@ import About from "../../../assets/AboutPic.svg"
 export function Services() {
   return (
     <section id="services-section" className="my-24">
-      <h2 className="text-4xl font-medium text-center mb-12">Services</h2>
 
       {/* Desktop View */}
       <div className="hidden lg:block mt-[250px]">
-        <div className="container mx-auto overflow-hidden">
+        <div className="container mx-auto ">
           <div className="flex flex-wrap text-lg">
-            <div className="w-full lg:w-5/12 pl-[90px] mt-[70px]" data-aos="fade-right" data-aos-duration="1000">
+            <div className="w-full lg:w-5/12 pl-[90px]" data-aos="fade-right" data-aos-duration="1000">
               <Image 
                 src={About}
                 alt="services" 
-                width={400} 
-                height={600} 
+                width={220} 
+                height={380} 
                 className="h-[600px] object-cover"
               />
             </div>

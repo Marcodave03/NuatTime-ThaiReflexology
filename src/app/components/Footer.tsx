@@ -7,10 +7,10 @@ import Facebook from "../../../assets/logo/fb.png"
 
 export function Footer() {
   return (
-    <footer className="bg-orange-800">
+    <footer style={{backgroundColor:"#613E2C"}}>
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div>
+        <div className="mt-20 mb-20 grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="">
             <h3 className="text-xl font-bold mb-4 text-white">Contact Number</h3>
             <p className="flex items-center mb-8 text-white">
               <Image src={Whatsapp} alt="WhatsApp" width={24} height={24} className="mr-2" />
