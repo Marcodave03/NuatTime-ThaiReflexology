@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react"
 import Link from "next/link"
 import Image from "next/image"
+import Logo from "../../../assets/Nuatlogo.svg"
 
 export function Navbar() {
   const [isTransparent, setIsTransparent] = useState(false)
@@ -22,19 +23,19 @@ export function Navbar() {
     >
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/" className="hidden md:block">
-          <Image src="/assets/navlogo.svg" alt="logo" width={150} height={50} />
+          <Image src={Logo} alt="logo" width={150} height={50} />
         </Link>
         <div className="flex space-x-6">
-          <Link href="#landing-section" className="nav-link animated-underline text-lg hover:underline font-bold">
+          <Link href="#landing-section" className="nav-link animated-underline text-lg font-bold">
             About
           </Link>
-          <Link href="#services-section" className="nav-link animated-underline text-lg hover:underline font-bold">
+          <Link href="#services-section" className="nav-link animated-underline text-lg font-bold">
             Service
           </Link>
-          <Link href="#pricelist-section" className="nav-link animated-underline text-lg hover:underline font-bold">
+          <Link href="#pricelist-section" className="nav-link animated-underline text-lg font-bold">
             Pricelist
           </Link>
-          <Link href="#location-section" className="nav-link animated-underline text-lg hover:underline font-bold">
+          <Link href="#location-section" className="nav-link animated-underline text-lg font-bold">
             Location
           </Link>
         </div>

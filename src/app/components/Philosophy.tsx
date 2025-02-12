@@ -5,7 +5,7 @@ import Logo3 from "../../../assets/logo (3).svg"
 
 export function Philosophy() {
     return (
-        <section className="mt-[400px]">
+        <section className="mt-[100px]">
         <div className="container mx-auto overflow-hidden">
           <div className="flex justify-center text-4xl font-medium pt-[70px]">
             Our Philosophy
@@ -16,8 +16,8 @@ export function Philosophy() {
                 <Image 
                   src={Logo1} 
                   alt="nuattimelog" 
-                  width={120} 
-                  height={120} 
+                  width={150} 
+                  height={150} 
                   className="mt-[60px] mx-auto"
                 />
                 <p className="text-2xl font-serif mt-4">Royal Orchid</p>
@@ -26,8 +26,8 @@ export function Philosophy() {
                 <Image 
                   src={Logo2}
                   alt="nuattimelog" 
-                  width={120} 
-                  height={120} 
+                  width={150} 
+                  height={150} 
                   className="mt-[60px] mx-auto"
                 />
                 <p className="text-2xl font-serif mt-4">Mindfulness</p>
@@ -36,8 +36,8 @@ export function Philosophy() {
                 <Image 
                   src={Logo3}
                   alt="nuattimelog" 
-                  width={120} 
-                  height={120} 
+                  width={150} 
+                  height={150} 
                   className="mt-[60px] mx-auto"
                 />
                 <p className="text-2xl font-serif mt-4">Massage</p>
