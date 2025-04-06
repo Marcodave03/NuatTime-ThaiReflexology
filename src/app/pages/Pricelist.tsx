@@ -1,9 +1,9 @@
 import Image from "next/image";
 import React from "react";
-import Fullbody from "../../../assets/fullbody.svg";
-import Thaimassage from "../../../assets/thaimassage.svg";
-import Oilmassage from "../../../assets/oilmassage.svg";
-import Other from "../../../assets/other.svg";
+import Fullbody from "../../assets/fullbody.svg";
+import Thaimassage from "../../assets/thaimassage.svg";
+import Oilmassage from "../../assets/oilmassage.svg";
+import Other from "../../assets/other.svg";
 
 export function Pricelist() {
   return (

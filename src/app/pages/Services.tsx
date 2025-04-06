@@ -1,10 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
-import About from "../../../assets/AboutPic.svg"
+import About from "../../assets/AboutPic.svg";
 
 export function Services() {
   return (
-    <section id="services-section" className="my-24">
+    <section id="services-section" className="my-24 mt-[100px]">
 
       {/* Desktop View */}
       <div className="hidden lg:block mt-[250px]">
@@ -20,7 +20,7 @@ export function Services() {
               />
             </div>
             <div className="w-full lg:w-7/12">
-              <div className="text-4xl font-medium">Services</div>
+              <div className="text-6xl font-medium">Services</div>
               <div data-aos="fade-up">
                 <p className="font-medium pt-[50px] text-2xl">Full Body Reflexology</p>
                 <p className="text-2xl font-serif">Pressures on body parts to relieve tension, improve circulation (Foot with cream, other body parts with dry massage)</p>

@@ -78,7 +78,7 @@ body {
 }
 
 body {
-    background-image: url('../../assets//background.svg');
+    background-image: url('../assets/background.svg');
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -232,18 +232,18 @@ input:checked + label .description {
     transform: translateY(0) !important;
 }
 
-.card[for="c1"] {
-    background-image: url('../../assets/IMG (1).png');
+/* .card[for="c1"] {
+    background-image: url('../assets/IMG (1).png');
 }
 .card[for="c2"] {
-    background-image: url('../../assets/IMG (2).png');
+    background-image: url('../assets/IMG (2).png');
 }
 .card[for="c3"] {
-    background-image: url('../../assets/IMG (3).png');
+    background-image: url('../assets/IMG (3).png');
 }
 .card[for="c4"] {
-    background-image: url('../../assets/IMG (4).png');
-}
+    background-image: url('../assets/IMG (4).png');
+} */
 
 
 .loading-screen {
@@ -275,7 +275,6 @@ input:checked + label .description {
 }
 
 .container {
-    overflow: hidden;
     position: relative;
 }
 .logos {
@@ -325,7 +324,7 @@ input:checked + label .description {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    z-index: 999;
+    z-index: 200;
 }
 
 .door-wrapper {

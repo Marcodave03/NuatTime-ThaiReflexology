@@ -3,10 +3,10 @@
 import { useState, useEffect } from "react"
 import Link from "next/link"
 import Image from "next/image"
-import Logo from "../../../assets/Nuatlogo.svg"
+import Logo from "../../assets/Nuatlogo.svg"
 
 export function Navbar() {
-  const [isTransparent, setIsTransparent] = useState(false)
+  const [, setIsTransparent] = useState(false)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -19,7 +19,8 @@ export function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 w-full p-4 z-20 transition-colors ${isTransparent ? "bg-opacity-50" : "bg-[#C8C4BF]"}`}
+      className={`fixed top-0 left-0 w-full p-4 z-[900] transition-colors bg-white`}
+      // ${isTransparent ? "bg-opacity-50" : "bg-white"}
     >
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/" className="hidden md:block">
